@@ -40,7 +40,49 @@ function walk(){}
 Herencia : Crea nuevas clases a partir de otras clases.
 
 Cuando muchas clases tiene muchas propiedades repetidas se genera una clase que tenga estos atributos y asi de estos se
-puede heradar, 
+puede herada.
+
+
+¿Como declarar objetos?
+
+java :
+Peson person= new Person();
+
+Python:
+persona= Person()
+
+Js:
+var person = new Person();
+
+php
+$person = new Person();
+
+
+ _________________________________________________________________________________________________
+
+Metodos contructores son los que le dan un estado inicial al objeto
+
+python:
+def __init__(self,name):
+	self.name=name
+
+
+js:
+function Person(name){
+	this.name =name
+}
+
+
+php:
+public function_construct($name){
+	$this->name =name;
+}
+
+
+
+
+ 
+
 
 
 

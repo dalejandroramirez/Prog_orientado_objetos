@@ -1,9 +1,15 @@
 package Java;
 
-public class Car {
+class Car {
     Integer id;
-    String driver;
+    Account driver;
     String license;
     Integer passengenger;
-
+    public Car(String license, Account driver){
+        this.license=license;
+        this.driver=driver;
+    }
+    void printDatacar() {
+        System.out.println("Car license: " + license + " Driver:" + driver.name);
+    }
 }
