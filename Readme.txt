@@ -78,6 +78,45 @@ public function_construct($name){
 	$this->name =name;
 }
 
+------------------------------------------------------------------
+
+Herencia : esto extiende una clase a una subclase
+
+java:
+
+class Student extendes Person
+
+la palabra reservada super, hace referencia a la clase padre
+
+js :
+
+student.prototype=new Person();
+
+
+Python:
+
+class Student(Person):
+
+PHP
+
+class Student extendes Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
