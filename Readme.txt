@@ -103,6 +103,52 @@ class Student extendes Person
 
 
 
+__________________________________________________________
+                     Encapsulamiento
+__________________________________________________________
+ Es una forma de guardar datos de tal manera que no sea posible modificarlo posteriormente
+
+
+Para esto se utiliza en java	 
+Public
+protected
+default
+private
+
+el orden en gerarquia es public (todas las clases) < protected (Clases y paquetes) < private (Solo accedido a nivel de clases)
+
+Metodos para agregar datos son Getters y setters
+
+
+_______________________________________________________________
+                POLIMORFISMO
+_______________________________________________________________
+
+Un polimorfismo en esencia es crear metodos con el mismo nombre
+pero con diferentes comportamientos y se puede ir agregando variaciones de clase en clase para que se herede la de los anteriores
+
+
+Polimorfismo es dada una funcion se extiende otra funcion a a otra clase de tal manera que tenga variaciones de la anteriore
+
+__________________________________________________________
+				RESUMEN
+__________________________________________________________
+En la POO hay 5 cosas fundamentales:
+
+Clases: Son el molde más genérico y del cual podemos instanciar muchos objetos.
+
+Objetos: Son creados de las clases y tienen datos y funcionalidad.
+
+Atributos: Son las características especificas del objeto (Son las variables dentro del código)
+Métodos: Son las funciones o acciones que puede hacer este objeto.
+**Instaciar:**Es la creación de un objeto desde una clase a eso se le llama instancia o instancias.
+Los pilares de la POO son:
+
+Abstracción: Es separar cada uno de los datos de un objeto para poder crear su molde (clase)
+
+Encapsulamiento: Es aislar un dato para que este sea privado y no pueda ser visto o modificado.
+Herencia: Es crear una o más clases a partir de una clase que ya existe. Y se les llaman subclases.
+**Polomorfismo:**Es construir métodos con el mismo nombre pero con comportamiento diferente.
 
 
 

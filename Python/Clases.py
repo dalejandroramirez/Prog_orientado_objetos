@@ -25,10 +25,6 @@ Daniel=User("Daniel","12345")
 Alejandro.id=12
 Alejandro.Crear_Usuario("Andres","1234","clave")
 
-print(Alejandro.name)
-print(Daniel.name)
-print(Alejandro.id)
-print(Daniel.id)
 
 
 class Car:
